@@ -122,10 +122,12 @@ class Rover extends Grid{
 // console.log(x_val)
 
 let rover_One = new Rover(1,2, "N", 5,5)
+
 rover_One.recieve_message("LMLMLMLMM")
 rover_One.reportStatus()
 
 let rover_Two = new Rover(3, 3, "E", 5,5)
+
 rover_Two.recieve_message("MMRMMRMRRM")
 rover_Two.reportStatus()
 
