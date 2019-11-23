@@ -15,9 +15,9 @@ In order to control a rover, NASA sends a simple string of letters. The possible
 
 Assume that the square directly North from (x, y) is (x, y+1).
 
-Input and Output
+### Input and Output
 
-Test Input:
+### Test Input:
 
 5 5
 
@@ -30,8 +30,7 @@ LMLMLMLMM
 MMRMMRMRRM
 
 
-
-Expected Output:
+### Expected Output:
 
 1 3 N
 
